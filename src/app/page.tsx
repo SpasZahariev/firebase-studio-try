@@ -69,10 +69,10 @@ export default function Home() {
       </div>
 
       <div className="flex justify-between w-full max-w-2xl mt-4">
-        <Button variant="outline" onClick={handleBack} disabled={page === 0}>
+        <Button variant="lavender" onClick={handleBack} disabled={page === 0}>
           Back
         </Button>
-        <Button onClick={handleNext} disabled={page === Math.ceil(totalQuestions / questionsPerPage) - 1}>
+        <Button variant="lavender" onClick={handleNext} disabled={page === Math.ceil(totalQuestions / questionsPerPage) - 1}>
           Next
         </Button>
       </div>
