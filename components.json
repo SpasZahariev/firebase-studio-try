@@ -1,21 +1,21 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "default",
-  "rsc": true,
-  "tsx": true,
+  "style": "default",          // Tailwind theme style (e.g., default, modern)
+  "rsc": true,                 // Enable React Server Components (Next.js App Router)
+  "tsx": true,                 // Use `.tsx` instead of `.jsx` (TypeScript)
   "tailwind": {
-    "config": "tailwind.config.ts",
-    "css": "src/app/globals.css",
-    "baseColor": "neutral",
-    "cssVariables": true,
-    "prefix": ""
+    "config": "tailwind.config.ts",          // Path to Tailwind config
+    "css": "src/app/globals.css",            // Where global Tailwind styles live
+    "baseColor": "neutral",                  // Base theme color (used in components)
+    "cssVariables": true,                    // Use CSS variables for theming
+    "prefix": ""                             // Optional class name prefix
   },
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "lib": "@/lib",
-    "hooks": "@/hooks"
+    "components": "@/components",            // Path alias for components
+    "utils": "@/lib/utils",                  // Path alias for utility functions
+    "ui": "@/components/ui",                 // Path alias for shared UI components
+    "lib": "@/lib",                          // Path alias for library code
+    "hooks": "@/hooks"                       // Path alias for custom hooks
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": "lucide"                    // Icon set to use (e.g., Lucide icons)
 }
