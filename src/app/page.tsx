@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { V0Button } from "@/components/ui/v0-button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const questionsPerPage = 6;
@@ -69,12 +70,14 @@ export default function Home() {
       </div>
 
       <div className="flex justify-between w-full max-w-2xl mt-4">
-        <Button variant="lavender" onClick={handleBack} disabled={page === 0}>
+        {/* <Button variant="lavender" onClick={handleBack} disabled={page === 0}> */}
+        <V0Button onClick={handleBack} disabled={page === 0}>
           Back
-        </Button>
-        <Button variant="lavender" onClick={handleNext} disabled={page === Math.ceil(totalQuestions / questionsPerPage) - 1}>
+        </V0Button>
+        {/* <Button variant="lavender" onClick={handleNext} disabled={page === Math.ceil(totalQuestions / questionsPerPage) - 1}> */}
+        <V0Button onClick={handleNext} disabled={page === Math.ceil(totalQuestions / questionsPerPage) - 1}>
           Next
-        </Button>
+        </V0Button>
       </div>
     </div>
   );

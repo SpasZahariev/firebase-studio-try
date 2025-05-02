@@ -9,25 +9,25 @@ body {
 
 @layer base {
   :root {
-    --background: 225 11% 14%; /* Macchiato base */
-    --foreground: 220 12% 70%; /* Macchiato text */
-    --card: 225 11% 14%; /* Macchiato base */
-    --card-foreground: 220 12% 70%; /* Macchiato text */
-    --popover: 225 11% 14%; /* Macchiato base */
-    --popover-foreground: 220 12% 70%; /* Macchiato text */
-    --primary: 223 13% 54%; /* Macchiato lavender */
-    --primary-foreground: 225 11% 14%; /* Macchiato base */
-    --secondary: 225 11% 18%; /* Macchiato surface0 */
-    --secondary-foreground: 220 12% 70%; /* Macchiato text */
-    --muted: 225 11% 18%; /* Macchiato surface0 */
-    --muted-foreground: 220 8% 50%; /* Macchiato subtext0 */
-    --accent: 174 59% 64%; /*Teal (#4DBAEB) */
-    --accent-foreground: 225 11% 14%; /* Macchiato base */
-    --destructive: 0 63% 54%; /* Macchiato rose */
-    --destructive-foreground: 220 12% 70%; /* Macchiato text */
-    --border: 225 11% 18%; /* Macchiato surface0 */
-    --input: 225 11% 18%; /* Macchiato surface0 */
-    --ring: 174 59% 64%; /*Teal (#4DBAEB) */
+    --background: 0 0% 100%; /* Macchiato base */
+    --foreground: 0 0% 3.9%; /* Macchiato text */
+    --card: 0 0% 100%; /* Macchiato base */
+    --card-foreground: 0 0% 3.9%; /* Macchiato text */
+    --popover: 0 0% 100%; /* Macchiato base */
+    --popover-foreground: 0 0% 3.9%; /* Macchiato text */
+    --primary: 0 0% 9%; /* Macchiato lavender */
+    --primary-foreground: 0 0% 98%; /* Macchiato base */
+    --secondary: 0 0% 96.1%; /* Macchiato surface0 */
+    --secondary-foreground: 0 0% 9%; /* Macchiato text */
+    --muted: 0 0% 96.1%; /* Macchiato surface0 */
+    --muted-foreground: 0 0% 45.1%; /* Macchiato subtext0 */
+    --accent: 0 0% 96.1%; /*Teal (#4DBAEB) */
+    --accent-foreground: 0 0% 9%; /* Macchiato base */
+    --destructive: 0 84.2% 60.2%; /* Macchiato rose */
+    --destructive-foreground: 0 0% 98%; /* Macchiato text */
+    --border: 0 0% 89.8%; /* Macchiato surface0 */
+    --input: 0 0% 89.8%; /* Macchiato surface0 */
+    --ring: 0 0% 3.9%; /*Teal (#4DBAEB) */
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -44,25 +44,25 @@ body {
     --sidebar-ring: 174 59% 64%; /*Teal (#4DBAEB) */
   }
   .dark {
-    --background: 225 11% 14%; /* Macchiato base */
-    --foreground: 220 12% 70%; /* Macchiato text */
-    --card: 225 11% 14%; /* Macchiato base */
-    --card-foreground: 220 12% 70%; /* Macchiato text */
-    --popover: 225 11% 14%; /* Macchiato base */
-    --popover-foreground: 220 12% 70%; /* Macchiato text */
-    --primary: 223 13% 54%; /* Macchiato lavender */
-    --primary-foreground: 225 11% 14%; /* Macchiato base */
-    --secondary: 225 11% 18%; /* Macchiato surface0 */
-    --secondary-foreground: 220 12% 70%; /* Macchiato text */
-    --muted: 225 11% 18%; /* Macchiato surface0 */
-    --muted-foreground: 220 8% 50%; /* Macchiato subtext0 */
-    --accent: 174 59% 64%; /*Teal (#4DBAEB) */
-    --accent-foreground: 225 11% 14%; /* Macchiato base */
-    --destructive: 0 63% 54%; /* Macchiato rose */
-    --destructive-foreground: 220 12% 70%; /* Macchiato text */
-    --border: 225 11% 18%; /* Macchiato surface0 */
-    --input: 225 11% 18%; /* Macchiato surface0 */
-    --ring: 174 59% 64%; /*Teal (#4DBAEB) */
+    --background: 0 0% 3.9%; /* Macchiato base */
+    --foreground: 0 0% 98%; /* Macchiato text */
+    --card: 0 0% 3.9%; /* Macchiato base */
+    --card-foreground: 0 0% 98%; /* Macchiato text */
+    --popover: 0 0% 3.9%; /* Macchiato base */
+    --popover-foreground: 0 0% 98%; /* Macchiato text */
+    --primary: 0 0% 98%; /* Macchiato lavender */
+    --primary-foreground: 0 0% 9%; /* Macchiato base */
+    --secondary: 0 0% 14.9%; /* Macchiato surface0 */
+    --secondary-foreground: 0 0% 98%; /* Macchiato text */
+    --muted: 0 0% 14.9%; /* Macchiato surface0 */
+    --muted-foreground: 0 0% 63.9%; /* Macchiato subtext0 */
+    --accent: 0 0% 14.9%; /*Teal (#4DBAEB) */
+    --accent-foreground: 0 0% 98%; /* Macchiato base */
+    --destructive: 0 62.8% 30.6%; /* Macchiato rose */
+    --destructive-foreground: 0 0% 98%; /* Macchiato text */
+    --border: 0 0% 14.9%; /* Macchiato surface0 */
+    --input: 0 0% 14.9%; /* Macchiato surface0 */
+    --ring: 0 0% 83.1%; /*Teal (#4DBAEB) */
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;

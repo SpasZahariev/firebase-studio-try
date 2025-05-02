@@ -7,7 +7,8 @@ const hackerFont = Press_Start_2P({
   style: ['normal'], // will only load the normal style to save on size
   display: 'swap', // will show some basic font until this one is ready and loaded
   weight: "400",
-  variable: 'font-family'
+  variable: 'font-family' // the css variable is replaced with this bit
+  // variable: '--font-hacker'
 });
 
 export const metadata: Metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${hackerFont.variable} antialiased`}>
+      <body className={`${hackerFont.variable} antialiased bg-gray-900`}>
         {children}
       </body>
     </html>

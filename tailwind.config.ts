@@ -12,10 +12,10 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
-			peach: '#f5a97f',
-			lavender: '#b7bdf8', 
-			muave: '#c6a0f6', 
-			teal: '#8bd5ca',
+  			peach: '#f5a97f',
+  			lavender: '#b7bdf8',
+  			muave: '#c6a0f6',
+  			teal: '#8bd5ca',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
